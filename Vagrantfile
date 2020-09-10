@@ -77,6 +77,6 @@ Vagrant.configure("2") do |config|
     dpkg-reconfigure openssh-server
 
     apt-get update
-    sudo apt-get install make build-essential gdb cscope -y
+    sudo apt-get install make build-essential gdb git cscope -y
   SHELL
 end
