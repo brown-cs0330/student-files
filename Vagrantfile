@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-# ### CS131 Development VM ###
+# ### CS33 Development VM ###
 # Feel free to modify this file to best work with your machine.
 # 
 # For documentation, please see the comments here or go to
@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
-  # Every Vagrant development environment requires a box. You can sarch for
+  # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/bionic64"
 
