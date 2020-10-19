@@ -77,6 +77,6 @@ Vagrant.configure("2") do |config|
     dpkg-reconfigure openssh-server
 
     apt-get update
-    sudo apt-get install make build-essential gdb git gcc-multilib cscope figlet sysvbanner -y 
+    sudo apt-get install make build-essential gdb git gcc-multilib python2.7 cscope figlet sysvbanner -y 
   SHELL
 end
